@@ -1,0 +1,73 @@
+{
+    "users": {
+        "U0001": {
+            "id": "U0001",
+            "name": "admin",
+            "email": "admin@gmail.com",
+            "password": "Admin2236",
+            "phone_number": "01129889900",
+            "role": "Admin"
+        },
+         "U0002": {
+            "id": "U0002",
+            "name": "salma",
+            "email": "salma@gmail.com",
+            "password": "Salma2002",
+            "phone_number": "01150097313",
+            "role": "Client"
+        },
+        "U0003": {
+            "id": "U0003",
+            "name": "omar",
+            "email": "omar@gmail.com",
+            "password": "Omae2002",
+            "phone_number": "01286678979",
+            "role": "Freelancer"
+        }
+    },
+    "projects": {
+        "P0001": {
+            "id": "P0001",
+            "title": "Shopping Ecommerce",
+            "client_id": "U0001",
+            "freelancer_id": null,
+            "status": "open",
+            "deadline": "30-10-2026",
+            "budget": 5000
+        },
+        "P0002": {
+            "id": "P0002",
+            "title": "Sport Website",
+            "client_id": "U0001",
+            "freelancer_id": "U0002",
+            "status": "in progress",
+            "deadline": "07-09-2026",
+            "budget": 5000
+        },
+        "P0003": {
+            "id": "P0003",
+            "title": "Weather Mobile ",
+            "client_id": "U0001",
+            "freelancer_id": null,
+            "status": "open",
+            "deadline": "20-02-2026",
+            "budget": 1000
+        }
+    },
+    "invoices": {
+        "INV0001": {
+            "code": "INV0001",
+            "amount": 5000,
+            "project_id": "P0001",
+            "status": "Paid",
+            "commission": 5000.0
+        },
+        "INV0002": {
+            "code": "INV0002",
+            "amount": 5000,
+            "project_id": "P0002",
+            "status": "Paid",
+            "commission": 500.0
+        }
+    }
+}
